@@ -1,0 +1,7 @@
+﻿USE TodoDb;
+
+CREATE TABLE TodoItems (
+	id INT IDENTITY(1,1) PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	isComplete BIT NOT NULL
+);
